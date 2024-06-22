@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: beige;
+}
+.cards {
+  width: 100dvw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & .hstyle1 {
+    background-color: pink;
+    border: 2px solid black;
+    padding: 1rem 1rem;
+  }
+
+  & .hstyle2 {
+    background-color: pink;
+    border: 2px solid black;
+    padding: 1rem 1rem;
+  }
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem 1rem;
+  gap: 2rem;
+  height: fit-content;
+  padding: 1rem 2rem;
+  background-color: rgb(97, 113, 113);
+}
+
+& .btn {
+  background: rgba(253, 174, 174, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.301);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  font-size: 1.2rem;
+  border: 1px solid rgba(185, 91, 91, 0.212);
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--color-primary-1);
+  overflow: hidden;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background-color: rgb(231, 109, 109);
+    color: #000000;
+    transform: translateY(-3px);
+  }
+  &.active {
+    background: rgba(97, 83, 83, 0.479);
+  }
+}

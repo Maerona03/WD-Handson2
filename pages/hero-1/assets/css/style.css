@@ -11,7 +11,7 @@
 .hero-one{
     width: 100vw;
     min-height: 100vh;
-    background-image: url(../img/bg1.jpg);
+    background-image: url(../img/color.jpg);
     background-position: center;
     background-size: cover;
     color: white;
@@ -43,7 +43,7 @@
     font-size: 1.2rem;
     padding-left: 2rem;
     font-style: "Poppins";
-    color: rgb(169, 121, 152);
+    color: rgb(255, 255, 255);
     font-weight:900;
     margin-bottom: 1rem;
    }
@@ -62,12 +62,11 @@
 } 
 
 
-
-
 .header {
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   padding: 1rem 1rem;
   gap: 2rem;
   height: fit-content;
@@ -89,6 +88,11 @@
     overflow: hidden;
     transition: all .2s ease;
 
+    &:hover {
+      background-color: rgb(223, 70, 182);
+      color: #ffffff;
+      transform: translateY(-3px);
+      
     &.active {
         background: rgba(255, 255, 255, 0.479);
     }

@@ -70,16 +70,15 @@ Guiding Question:
 <!-- The following are just sample -->
 
 - MultiPage Website
-- Animation and Effects
 - Button or Links
+- Image Masking
+- Color Hover Effects
+- Card Animation
 
 ### Technology
 
-<!-- TODO: List of Technology Used -->
-
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 
@@ -124,5 +123,7 @@ WD-ProjectName
 | --------- | ---------------------------------------------- | -------------------------------------------------- |
 | FONTS     | Applying style fonts to make the font better.  | https://fonts.google.com/selection/embed           |
 | Youtube   | Getting ideas and tutorial for different style | https://www.youtube.com/watch?v=6KSKn9xIxUQ&t=518s |
+| Youtube   | Getting ideas and tutorial for different style | https://youtu.be/6KSKn9xIxUQ?si=DNh-ZyvcZEC564Rw   |
 | Github    | Get some ideas and the flow of format.         | https://github.com/zyx-0314/WD-Hands-on-2          |
 | w3schools | Learn some codes in css and how it works.      | https://www.w3schools.com/csS/css_boxmodel.asp     |
+| GOOGLE    | Get some ideas for styling and animation.      | https://devdevout.com/css/css-cards                |
